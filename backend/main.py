@@ -72,6 +72,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "http://127.0.0.1:3000",
+        "https://eventleadai-1.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
